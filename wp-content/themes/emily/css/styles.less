@@ -1,8 +1,12 @@
 @black: #000000;
 @white: #fff;
-
+@pink: #e82693;
+@blue: #00adec;
+@darkblue: #008de3;
+@gray: #c7c8ca;
+@moregray: #dcddde;
 @helvetica: 'Helvetica Neue', 'Arial';
-@emily: 'divulge', 'Helvetica Neue', 'Arial';
+@emily: 'Futura', 'Helvetica Neue', 'Arial';
 @biggest: 28px;
 @big: 24px;
 @medium: 18px;
@@ -17,7 +21,7 @@
 /* General parameters */
 
 h1, h2, h3, h4, h5 {
-  font-family: @outdoorchef;
+  font-family: @emily;
 }
 
 /* Configs */
@@ -71,7 +75,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .textshadow {
-  text-shadow: 1px 1px 1px (@darkgreen + #222);
+  text-shadow: 1px 1px 1px (@gray + #222);
 }
 
 .textshadowwhite {
@@ -107,3 +111,35 @@ h1, h2, h3, h4, h5 {
   opacity: 1;
 }
 
+/*
+ * Basic
+ */
+
+.top {
+  background: @white url('../images/top-nav.png') top center repeat;
+  min-height: 40px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  margin: 10px 36px;
+  text-transform: uppercase;
+  font-family: @emily;
+  font-size: @big;
+  font-weight: 100;
+}
+
+.menu li a {
+  font-weight: 100;
+}
+
+.current-menu-item a {
+  color: @pink;
+}

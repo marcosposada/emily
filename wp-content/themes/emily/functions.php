@@ -43,7 +43,7 @@ function colouralia_scripts()
 	wp_register_script( 'jqueryEasing', get_template_directory_uri() . '/js/jquery.easing.js', array( 'jquery' ) );
 	
 	// Add supersized for big background images
-	wp_register_script( 'supersized', get_template_directory_uri() . '/js/supersized.core.3.2.1.js', array( 'jquery' ) );
+	//wp_register_script( 'supersized', get_template_directory_uri() . '/js/supersized.core.3.2.1.js', array( 'jquery' ) );
 	
 	// Add Less
 	
@@ -96,27 +96,7 @@ function colouralia_widgets_init() {
 }
 add_action( 'widgets_init', 'colouralia_widgets_init' );
 
-function colouralia_wp_title( $title, $sep ) {
-	global $paged, $page;
 
-	if ( is_feed() )
-		return $title;
-
-	// Add the site name.
-	$title .= get_bloginfo( 'name' );
-
-	// Add the site description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		$title = "$title $sep $site_description";
-
-	// Add a page number if necessary.
-	if ( $paged >= 2 || $page >= 2 )
-		$title = "$title $sep " . sprintf( __( 'Page %s', 'colouralia' ), max( $paged, $page ) );
-
-	return $title;
-}
-add_filter( 'wp_title', 'colouralia_wp_title', 10, 2 );
 
 function colouralia_page_menu_args( $args ) {
 	if ( ! isset( $args['show_home'] ) )

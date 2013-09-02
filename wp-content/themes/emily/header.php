@@ -4,9 +4,9 @@
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
- * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @package Colouralia
+ * @subpackage Emily
+ * 
  */
 ?><!DOCTYPE html>
 <!--[if IE 6]>
@@ -47,16 +47,15 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/flexslider.css" />
-<link href="<?php bloginfo('template_url');?>/css/styles.less" rel="stylesheet/less" type="text/css">
+<link href="<?php bloginfo('template_url');?>/css/styles.less" rel="stylesheet/less" type="text/css" media="all">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <?php wp_enqueue_script("jquery"); ?>
-<script type="text/javascript" src="//use.typekit.net/ash8eje.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -78,3 +77,12 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div class="top">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<?php wp_nav_menu(); ?>
+			</div>
+		</div>
+	</div>
+</div>
