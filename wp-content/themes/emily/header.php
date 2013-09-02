@@ -78,22 +78,3 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-lg-4">
-					<div class="top-navigation">
-						<div class="logo">
-							<a href="<?php echo bloginfo('url'); ?>"><img src="<?php echo bloginfo('template_url'); ?>/images/logo.png" /></a>
-						</div>
-						<?php wp_nav_menu( array('menu' => 'Main Nav' )); ?>
-					</div>
-					
-				</div>
-				<div class="col-lg-8">
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="wrapper">
