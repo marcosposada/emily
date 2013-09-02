@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+	
+	<tip id="cssstyle" label="CSS Style"><![CDATA[The <strong>CSS Style</strong> setting allows you to easily change the whole look of your site. The different CSS styles are a selection of preset settings such as background colors and font settings. A little preview thumbnail can be seen in the <strong>Overview</strong> tab.]]></tip>
+	
+	<tip id="bgcolor" label="Background Color"><![CDATA[<strong>The Background Color</strong> setting provides the ability to easily change the color used as the background. Colors can be inputted via the <strong>Colorchooser</strong> popup selector or manually using a hex code in the input field.]]></tip>
+	
+	<tip id="headercolor" label="Header Color"><![CDATA[<strong>The Header Color</strong> setting provides the ability to easily change the color used as the background. Colors can be inputted via the <strong>Colorchooser</strong> popup selector or manually using a hex code in the input field.]]></tip>
+	
+	<tip id="bottomcolor" label="Bottom Color"><![CDATA[<strong>The Bottom Color</strong> setting provides the ability to easily change the color used as the background. Colors can be inputted via the <strong>Colorchooser</strong> popup selector or manually using a hex code in the input field.]]></tip>
+	
+	<tip id="footercolor" label="Footer Color"><![CDATA[<strong>The Footer Color</strong> setting provides the ability to easily change the color used as the background. Colors can be inputted via the <strong>Colorchooser</strong> popup selector or manually using a hex code in the input field.]]></tip>
+	
+	<tip id="linkcolor" label="Link Color"><![CDATA[<strong>The Link Color</strong> setting provides the ability to easily change the color used to highlight links. Colors can be inputted via the <strong>Colorchooser</strong> popup selector or manually using a hex code in the input field.]]></tip>
+		
+	<tip id="webfonts" label="WebFonts"><![CDATA[This setting allows you to use <strong>3rd party WebFonts</strong> from providers such as Google. You must first set WebFonts to show and then save your changes, then the available WebFonts will appear in the Font Settings dropdown from where they can be selected.]]></tip>
+	
+	<tip id="font" label="Font Settings"><![CDATA[A selection of fonts to be applied to your site's frontend is available from the <strong>Font Settings</strong> dropdown. It is also possible to set the <strong>Font Size</strong> according to your preference.]]></tip>
+	
+	<tip label="Wordpress Comments"><![CDATA[This is a global setting that loads the comments form in the theme. If you want to use a 3rd party comments system please disable that toggle to keep the WordPress comments enabled, but not loaded in the Gantry based theme.]]></tip>
+	
+</gantrytips>

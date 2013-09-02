@@ -1,0 +1,18 @@
+/**
+ * @version   1.26 September 14, 2012
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+.menu-type-suckerfishmenu #rt-menu .menutop {padding: 0 10px;}
+.menu-type-suckerfishmenu #rt-menu li a {color: #fff;}
+.menu-type-suckerfishmenu #rt-menu li.sfHover a {color: #fff;}
+.menu-type-suckerfishmenu #rt-menu li.sfHover a {background: #444;border: none;}
+.menu-type-suckerfishmenu #rt-menu li#current a {background: #fff;color:#000!important;border: none;}
+.menu-type-suckerfishmenu #rt-menu li.sfHover a span, .menu-type-suckerfishmenu #rt-menu li#current a span {border: none;}
+.menu-type-suckerfishmenu #rt-menu li#current li a {color: #fff!important;}
+.menu-type-suckerfishmenu #rt-menu li ul, .menu-type-suckerfishmenu #rt-menu li#current li a {background: #444;}
+.menu-type-suckerfishmenu #rt-menu ul ul li .item:hover, .menu-type-suckerfishmenu #rt-menu li#current li .item:hover {background: #333;color: #ccc!important;}
+.menu-type-suckerfishmenu #rt-menu ul ul li .daddy:hover {background: #333;color: #ccc;}
+.menu-type-suckerfishmenu #rt-menu li.sfHover li .item {color: #fff;}

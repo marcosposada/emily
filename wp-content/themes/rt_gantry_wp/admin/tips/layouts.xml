@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+	
+	<tip id="top" label="Top Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>Top Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the Top positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+	
+	<tip id="header" label="Header Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>Header Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the Header positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+	
+	<tip id="showcase" label="Showcase Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>Showcase Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the Showcase positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+	
+	<tip id="feature" label="Feature Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>Feature Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the Feature positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+	
+	<tip id="utility" label="Utility Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>Utility Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the Utility positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+	
+	<tip id="maintop" label="MainTop Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>MainTop Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the MainTop positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+	
+	<tip id="mainbody" label="MainBody Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>MainBody Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the MainBody positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+
+	<tip id="mainbottom" label="MainBottom Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>MainBottom Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the MainBottom positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+
+	<tip id="bottom" label="Bottom Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>Bottom Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the Bottom positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+
+	<tip id="footer" label="Footer Position"><![CDATA[Use the layout slider to select the desired column distribution (width) used for the <strong>Footer Position.</strong> The active value will be highlighted in black and underlined. The <strong>Force Positions</strong> attribute causes all the Footer positions to be displayed. If there is no widget published in a position, then a blank space is left. The position count controls the number of forced positions.]]></tip>
+
+</gantrytips>

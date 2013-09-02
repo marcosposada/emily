@@ -1,0 +1,10 @@
+/**
+ * @version   1.26 September 14, 2012
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+ 
+#rt-main {zoom:1;position: relative;}
+.rt-grid-1, .rt-grid-2, .rt-grid-3, .rt-grid-4, .rt-grid-5, .rt-grid-6, .rt-grid-7, .rt-grid-8, .rt-grid-9, .rt-grid-10, .rt-grid-11, .rt-grid-12 {margin-right: 9px;}
+.widget, .widget ul, .widget ul li {zoom:1;}

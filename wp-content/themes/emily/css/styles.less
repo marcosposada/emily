@@ -1,0 +1,124 @@
+@black: #000000;
+@white: #fff;
+@bordergreen: #C1EF4C;
+@light: #f4f2f2;
+@green: #b3d546;
+@darkgreen: #3C7B4D;
+@gray: #6B6363;
+@darkgray: #3b3b3b;
+@red: #970513;
+@yellow: #ffb43d;
+@lightyellow: (@yellow + #222);
+@tablecolor: #e3d4d4;
+@tablerow: #A34A4B;
+@buttonred: #ed1c24;
+@buttonredhover: (@buttonred + #222);
+@orange: #eaa821;
+@transparent: '../images/transparent.png';
+@transparentmore: '../images/transparent-more.png';
+@helvetica: 'Helvetica Neue', 'Arial';
+@outdoorchef: 'divulge', 'sans-serif', 'helvetica', 'arial';
+@biggest: 28px;
+@big: 24px;
+@medium: 18px;
+@small: 14px;
+@smallest: 10px;
+
+@screen-xs: 480px;
+@screen-sm: 768px;
+@screen-md: 992px;
+@screen-lg: 1200px;
+
+/* General parameters */
+
+h1, h2, h3, h4, h5 {
+  font-family: @outdoorchef;
+}
+
+/* Configs */
+
+.bordered {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.borderedleft {
+  border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+}
+
+.borderedright {
+  border-radius: 0 5px 5px 0;
+  -moz-border-radius:  0 5px 5px 0;
+  -webkit-border-radius:  0 5px 5px 0;
+}
+
+.borderedrange {
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+}
+
+.boxsized {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.boxsized {
+  box-sizing: border-padding;
+  -moz-box-sizing: border-padding;
+  -webkit-box-sizing: border-padding;
+}
+
+.removelist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+
+.textshadow {
+  text-shadow: 1px 1px 1px (@darkgreen + #222);
+}
+
+.textshadowwhite {
+  text-shadow: 0px 1px 1px @white;
+}
+.transition {
+  transition: background  0.2s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out;
+  -o-transition: background 0.2s ease-in-out;
+}
+
+.transitionborder {
+    transition : border 250ms ease-out; 
+  -webkit-transition : border 250ms ease-out; 
+  -moz-transition : border 250ms ease-out;
+  -o-transition : border 250ms ease-out;    
+}
+
+.transparent {
+  zoom: 1;
+  filter:alpha(opacity=85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+.notransparent {
+  zoom: 1;
+  filter:alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+

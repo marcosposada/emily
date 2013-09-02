@@ -1,0 +1,35 @@
+/**
+ * @version   1.26 September 14, 2012
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Core */
+body {color: #333;}
+#rt-header {color: #aaa;}
+#rt-bottom {color: #333;}
+.rt-container {background: #fff;} 
+a:hover {color: #000;}
+#rt-footer, #rt-copyright {color: #ddd;}
+#rt-sidebar-a {background-color:#eee;}
+#rt-sidebar-b {background-color:#fff;}
+#rt-sidebar-c {background-color:#fff;}
+#gantry-viewswitcher {margin: 0 auto 1em;position: relative;}
+
+/* Navigation - Core */
+#rt-menu ul.menu li a, .menutop.theme-fusion li.root > .item, .menu-type-splitmenu .menutop.theme-splitmenu li .item {color: #fff;}
+.menutop.theme-fusion li.parent.root > .item span, .menu-type-splitmenu .menutop.theme-splitmenu li.parent .item span {background: url(../images/menus/menutop-daddy.png) 100% 50% no-repeat;}
+
+/* Navigation - Hovers */
+#rt-menu ul.menu li a:hover, .menutop.theme-fusion li.root > .item:hover, .menutop.theme-fusion li.active.root.f-mainparent-itemfocus > .item, .menutop.theme-fusion li.root.f-mainparent-itemfocus > .item, .menu-type-splitmenu .menutop.theme-splitmenu li:hover > .item {background: #444;color: #fff;}
+
+/* Navigation - Active */
+#rt-menu ul.menu li.active a, #rt-menu ul.menu li.active a:hover, .menutop.theme-fusion li.root.active > .item, .menutop.theme-fusion li.root.active > .item:hover, .menu-type-splitmenu .menutop.theme-splitmenu li.active .item {background: #fff;color: #000;}
+
+/* Navigation - Dropdowns */
+.menutop.theme-fusion .fusion-submenu-wrapper {background: #444;}
+.menutop.theme-fusion .fusion-submenu-wrapper.level3, .menutop.theme-fusion .fusion-submenu-wrapper.level4, .menutop.theme-fusion .fusion-submenu-wrapper.level5, .menutop.theme-fusion .fusion-submenu-wrapper.level6 {background: #515151;}
+.menutop.theme-fusion ul li > .item {color: #fff;}
+.menutop.theme-fusion ul li > .item:hover, .menutop.theme-fusion ul li.f-menuparent-itemfocus > .item {background: #333;color: #ccc;}
+.menutop.theme-fusion ul li > .daddy span {background: url(../images/menus/dropdown-daddy.png) 100% 50% no-repeat;}
+.menutop.theme-fusion .fusion-grouped ol li > .item {background: url(../images/menus/menu-arrow.png) 5px 50% no-repeat;}

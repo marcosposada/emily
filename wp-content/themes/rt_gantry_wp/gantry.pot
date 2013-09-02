@@ -1,0 +1,310 @@
+# Translation of the WordPress theme Gantry Theme for WordPress 1.26 by RocketTheme, LLC.
+# Copyright (C) 2010 RocketTheme, LLC
+# This file is distributed under the same license as the Gantry Theme for WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gantry Theme for WordPress 1.26\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/gantry\n"
+"POT-Creation-Date: 2010-10-06 18:24+0200\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:19
+msgid ""
+"The active theme requires the Gantry Framework Plugin to be installed and "
+"active"
+msgstr ""
+
+#: html/404.php:9
+msgid "404 Page Not Found"
+msgstr ""
+
+#: html/archive.php:67
+msgid "Category:"
+msgstr ""
+
+#: html/archive.php:69
+msgid "Posts Tagged"
+msgstr ""
+
+#: html/archive.php:71 html/archive.php:73 html/archive.php:75
+msgid "Archive for"
+msgstr ""
+
+#: html/archive.php:77
+msgid "Author Archive"
+msgstr ""
+
+#: html/archive.php:79
+msgid "Blog Archives"
+msgstr ""
+
+#: html/archive.php:131 html/home.php:84 html/index.php:84 html/page.php:54
+#: html/search.php:91 html/single.php:53
+msgid "Posted on"
+msgstr ""
+
+#: html/archive.php:141 html/home.php:94 html/index.php:94 html/page.php:64
+#: html/search.php:101 html/single.php:63
+msgid "Last Updated on"
+msgstr ""
+
+#: html/archive.php:151 html/home.php:104 html/index.php:104 html/page.php:74
+#: html/search.php:111 html/single.php:73
+msgid "Written by"
+msgstr ""
+
+#: html/archive.php:165 html/archive.php:172 html/home.php:118
+#: html/home.php:125 html/index.php:118 html/index.php:125 html/page.php:85
+#: html/search.php:125 html/search.php:132 html/single.php:84
+msgid "0 Comments"
+msgstr ""
+
+#: html/archive.php:165 html/archive.php:172 html/home.php:118
+#: html/home.php:125 html/index.php:118 html/index.php:125 html/page.php:85
+#: html/search.php:125 html/search.php:132 html/single.php:84
+msgid "1 Comment"
+msgstr ""
+
+#: html/archive.php:165 html/archive.php:172 html/home.php:118
+#: html/home.php:125 html/index.php:118 html/index.php:125 html/page.php:85
+#: html/search.php:125 html/search.php:132 html/single.php:84
+msgid "% Comments"
+msgstr ""
+
+#: html/archive.php:202 html/search.php:162
+msgid "Learn more ..."
+msgstr ""
+
+#: html/archive.php:227 html/home.php:180 html/index.php:180
+#: html/search.php:187
+msgid "Older Entries"
+msgstr ""
+
+#: html/archive.php:230 html/home.php:183 html/index.php:183
+#: html/search.php:190
+msgid "Newer Entries"
+msgstr ""
+
+#: html/archive.php:242
+msgid "Sorry, but there aren't any posts matching your query."
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:9
+msgid "Gantry Fusion"
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:11
+msgid "Gantry SplitMenu"
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:13
+msgid "Gantry Touch"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:22
+msgid "Subtext"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:31
+msgid "Icon"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:58
+msgid "Number of Columns in Submenu"
+msgstr ""
+
+#: html/home.php:155 html/index.php:155
+msgid "Read more ..."
+msgstr ""
+
+#: html/layouts/comment_basic.php:50
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: html/layouts/comment_basic.php:54
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: html/layouts/comment_basic.php:55
+msgid "(Edit)"
+msgstr ""
+
+#: html/layouts/comment_basic.php:67
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:39
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:53
+msgid "Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:57
+msgid "Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:97
+msgid "Leave a Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:97
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:106
+msgid "You must be"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:106
+msgid "logged in"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:106
+msgid "to post a comment."
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:118
+msgid "Logged in as"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:119
+msgid "Log out of this account"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:119
+msgid "Log out"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:125
+#: html/layouts/commentstempl_basic.php:126
+msgid "Name (Required)"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:133
+#: html/layouts/commentstempl_basic.php:134
+msgid "E-mail (Required)"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:140
+msgid "Website"
+msgstr ""
+
+#: html/layouts/commentstempl_basic.php:153
+msgid "Send"
+msgstr ""
+
+#: html/page.php:104 html/single.php:103
+msgid "Pages:"
+msgstr ""
+
+#: html/page.php:106 html/single.php:115
+msgid "Edit this entry."
+msgstr ""
+
+#: html/page.php:133
+msgid "Sorry, no pages matched your criteria."
+msgstr ""
+
+#: html/search.php:27
+msgid "Search Results for"
+msgstr ""
+
+#: html/search.php:202
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: html/single.php:109
+msgid "Tags:"
+msgstr ""
+
+#: html/single.php:122
+msgid "This entry was posted"
+msgstr ""
+
+#: html/single.php:127
+msgid "on"
+msgstr ""
+
+#: html/single.php:127
+msgid "at"
+msgstr ""
+
+#: html/single.php:128
+msgid "and is filed under"
+msgstr ""
+
+#: html/single.php:129
+msgid "You can follow any responses to this entry through the"
+msgstr ""
+
+#: html/single.php:129
+msgid "feed"
+msgstr ""
+
+#: html/single.php:133
+msgid "You can"
+msgstr ""
+
+#: html/single.php:133
+msgid "leave a response"
+msgstr ""
+
+#: html/single.php:133
+msgid "or"
+msgstr ""
+
+#: html/single.php:133 html/single.php:137
+msgid "trackback"
+msgstr ""
+
+#: html/single.php:133 html/single.php:137
+msgid "from your own site."
+msgstr ""
+
+#: html/single.php:137
+msgid "Responses are currently closed, but you can"
+msgstr ""
+
+#: html/single.php:141
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr ""
+
+#: html/single.php:145
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: html/single.php:147
+msgid "Edit this entry"
+msgstr ""
+
+#: html/single.php:179
+msgid "Sorry, no posts matched your criteria."
+msgstr ""

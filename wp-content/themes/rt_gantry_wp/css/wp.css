@@ -1,0 +1,42 @@
+/**
+ * @version   1.26 September 14, 2012
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Pagination */
+
+div.pagination {padding: 0 0 15px; margin-top: 5px;}
+div.rt-pagination {margin-bottom: 10px;}
+div.rt-page .rt-pagination a, div.rt-post .rt-pagination a {font-size: 130%; font-weight: bold;}
+div.rt-page #comments .rt-pagination a, div.rt-post #comments .rt-pagination a {font-size: 100%; font-weight: normal;}
+
+/* Page & Single */
+
+div.edit-entry {margin: 10px 0;}
+
+/* Single */
+
+.rt-post .rt-post-footer small {font-size: 90%; line-height: 130%;}
+.rt-post .rt-post-footer {margin: 0 0 15px 0;}
+
+.rt-post .rt-tags {overflow:hidden; margin: 15px 0 10px;}
+.rt-post .rt-tags span {font-style: italic;}
+
+/* Search */
+
+.search-excerpt {background: #FBDE21;}
+
+/* Font Sizer */
+
+.widget_gantry_fontsizer #rt-buttons .small .button, .widget_gantry_fontsizer #rt-buttons .large .button {background-image: url(../images/body/typography.png);}
+#rt-accessibility a {display: inline-block;}
+#rt-accessibility .button {display: block;width: 8px;height: 8px;margin-top: 2px;}
+#rt-accessibility a.large .button {background-position: -5px -15px;background-repeat: no-repeat;margin-right: 5px;}
+#rt-accessibility a.small .button {background-position: -15px -15px;background-repeat: no-repeat;}
+
+/* Write Comment */
+
+#commentform textarea {border: 1px solid #E6E6E6;}
+#commentform #author, #commentform #email, #commentform #url {border: 1px solid #E6E6E6;}
