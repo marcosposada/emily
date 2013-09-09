@@ -8,13 +8,20 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package WordPress
- * @subpackage Twenty_Eleven
+ * @package Colouralia
+ * @subpackage Emily Armstrong
  */
 
-get_header(); ?>
-<?php get_template_part('main-section'); ?>
-<?php get_template_part('about-section'); ?>
-<?php get_template_part('services-section'); ?>
-<?php get_template_part('projects-section'); ?>
-<?php get_footer(); ?>
+ 
+?>
+
+<div class="main">
+	<div class="infinite">
+		<img src="<?php bloginfo('template_url'); ?>/images/main-bg.jpg" />
+		<div class="container">
+			<div class="row">
+				
+			</div>
+		</div>
+	</div>
+</div>

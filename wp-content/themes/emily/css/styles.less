@@ -9,7 +9,7 @@
 @emily: 'Futura', 'Helvetica Neue', 'Arial';
 @biggest: 28px;
 @big: 24px;
-@medium: 18px;
+@medium: 20px;
 @small: 14px;
 @smallest: 10px;
 
@@ -22,8 +22,12 @@
 
 h1, h2, h3, h4, h5 {
   font-family: @emily;
+  text-transform: uppercase;
 }
 
+h2 {
+  margin: 10px 0;
+}
 /* Configs */
 
 .bordered {
@@ -89,7 +93,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .transitionborder {
-    transition : border 250ms ease-out; 
+   transition : border 250ms ease-out; 
   -webkit-transition : border 250ms ease-out; 
   -moz-transition : border 250ms ease-out;
   -o-transition : border 250ms ease-out;    
@@ -129,7 +133,7 @@ h1, h2, h3, h4, h5 {
 
 .menu li {
   display: inline;
-  margin: 10px 36px;
+  margin: 10px 19px;
   text-transform: uppercase;
   font-family: @emily;
   font-size: @big;
@@ -138,8 +142,85 @@ h1, h2, h3, h4, h5 {
 
 .menu li a {
   font-weight: 100;
+  padding-bottom: 3px;
+}
+
+.menu li a:hover {
+  border-bottom: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  .transitionborder;
+  color: inherit;
 }
 
 .current-menu-item a {
   color: @pink;
+}
+
+/*
+ * Main Section
+ */
+
+.main {
+  position: relative;
+  min-height: 100px;
+}
+
+.main .infinite img {
+  position: absolute:
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+/*
+ * About Section
+ */
+
+.main, #about, #projects, #services {
+  text-align: center;
+}
+
+.main, #about, #projects, #services p {
+  font-size: @medium;
+  text-transform: uppercase;
+  color: @gray;
+  font-family: @emily;
+}
+
+#about h2 {
+  color: @blue;
+}
+
+
+.title {
+  text-align: center;
+}
+
+/*
+ * Services Section
+ * 
+ */
+
+#services {
+  background: @pink;
+  padding: 20px 0;
+}
+
+#services h2 {
+  color: @white;
+}
+
+/*
+ * Projects Section
+ * 
+ */
+
+#projects {
+  padding: 20px 0;
+}
+
+#projects h2 {
+  color: @blue;
 }
