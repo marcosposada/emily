@@ -43,7 +43,10 @@ $projects = get_posts( $args );
 				<?php foreach ($projects as $project) { ?>
 					<div class="col-md-4 col-lg-4">
 						<div class="project">
-							<?php echo get_the_post_thumbnail( $project->ID, 'full'); ?> 
+							<?php echo get_the_post_thumbnail( $project->ID, 'full'); ?>
+							<div class="project-link">
+								<a href="<?php echo $project->guid; ?>"><?php echo $project->post_title; ?></a>
+							</div>
 						</div>
 					</div>
 				<?php } ?>

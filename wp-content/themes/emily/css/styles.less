@@ -99,6 +99,13 @@ h2 {
   -o-transition : border 250ms ease-out;    
 }
 
+.transitionbackground {
+  transition : background 250ms ease-out; 
+  -webkit-transition : background 250ms ease-out; 
+  -moz-transition : background 250ms ease-out;
+  -o-transition : background 250ms ease-out;    
+}
+
 .transparent {
   zoom: 1;
   filter:alpha(opacity=85);
@@ -223,4 +230,34 @@ h2 {
 
 #projects h2 {
   color: @blue;
+}
+
+.project {
+  position: relative;
+  text-align: center;
+}
+
+.project-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-top: 100px;
+  background: url('../images/project.png') center no-repeat;
+  .transitionbackground;
+  .boxsized;
+}
+
+.project-link:hover {
+  background: url('../images/project-hover.png') center no-repeat;
+  cursor: pointer;
+}
+
+.project-link a {
+  color: @white;
+  font-size: @small;
+}
+
+.project-link a:hover {
+  text-decoration: none;
 }
