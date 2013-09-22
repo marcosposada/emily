@@ -236,7 +236,7 @@ h2 {
   font-family: @emily;
 }
 
-#about, #services, #projects, #hello {
+#about, #services, #projects, #hello, #upload {
   padding: 20px 0;
 }
 
@@ -398,12 +398,70 @@ input.wpcf7-submit {
 
 input.wpcf7-submit:hover {
   background: @blue url('../images/button-hover.png') center center no-repeat;
-  border-top: 1px solid @gray;
-  border-bottom: 1px solid @gray;
-
 }
 
 .form-group p {
   text-align: center;
+}
+
+input.wpcf7-file {
+  padding: 3px 10px 10px;
+  margin-bottom: 10px;
+  .noroundborder;
+  font-family: @emily;
+  text-transform: uppercase;
+  color: @gray;
+  font-size: 15px;
+  width: 100%;
+  background: @white;
+  border: 1px solid @gray;
+}
+
+/*
+ * 
+ * Upload section
+ */
+
+#upload {
+  background: @blue;
+  position: absolute;
+  top: -230px;
+  opacity: 0.9;
+  width: 100%;
+  height: 314px;
+  border-bottom: 2px solid @gray;
+
+}
+
+#upload h2 {
+  color: @white;
+}
+
+#upload span.wpcf7-not-valid-tip {
+  top: -45px;
+  left: -23px;
+  border: none;
+  background: @pink;
+  color: @white;
+  font-family: @emily;
+  text-transform: uppercase;
+}
+
+#upload div.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+  border: none;
+  background: @pink;
+  margin-top: -34px;
+  color: @white;
+  font-family: @emily;
+  text-transform: uppercase;
+}
+
+#upload div.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ng {
+   border: none;
+  background: none;
+  margin-top: -34px;
+  color: @white;
+  font-family: @emily;
+  text-transform: uppercase;
 }
 

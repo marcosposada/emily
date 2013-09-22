@@ -18,4 +18,5 @@ get_header(); ?>
 <?php get_template_part('services-section'); ?>
 <?php get_template_part('projects-section'); ?>
 <?php get_template_part('hello-section'); ?>
+<?php get_template_part('upload-section'); ?>
 <?php get_footer(); ?>

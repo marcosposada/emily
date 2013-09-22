@@ -69,6 +69,7 @@ $table_prefix  = 'wp_';
  * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
  * language support.
  */
+define( 'WPCF7_UPLOADS_TMP_DIR', ABSPATH . 'wp-content/sketches' );
 define('WPLANG', '');
 
 /**
