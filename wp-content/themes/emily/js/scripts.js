@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
 	});
 	var urldomain = document.domain;
 	
-	if (urldomain == "paper-people.com") {
+	if (urldomain == "www.paper-people.com") {
 		urldomain = urldomain + '/emily';
 	}
 	
