@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
 		urldomain = urldomain + '/emily';
 	}
 	
-	var img1 = 'http://' + document.domain + '/wp-content/themes/emily/images/main-bg.jpg';
+	var img1 = 'http://' + urldomain + '/wp-content/themes/emily/images/main-bg.jpg';
 	$.supersized({
 		slides: [{image : img1}],
 	});
