@@ -14,10 +14,7 @@
 
 	/* Place Supersized Elements
 	----------------------------*/
-	$(document).ready(function() {
-		$('.header').append('<div id="supersized-loader"></div><div id="supersized"></div>');
-	});
-    
+	
     
     $.supersized = function(options){
     	

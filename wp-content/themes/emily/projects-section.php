@@ -35,21 +35,27 @@ $projects = get_posts( $args );
 	<div class="infinite">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-xs-12">
 					<div class="title">
 						<h2>Projects</h2>
 					</div>
 				</div>
-				<?php foreach ($projects as $project) { ?>
-					<div class="col-md-4 col-lg-4">
-						<div class="project">
-							<?php echo get_the_post_thumbnail( $project->ID, 'full'); ?>
-							<div class="project-link">
-								<a href="<?php echo $project->guid; ?>"><?php echo $project->post_title; ?></a>
+				<?php if (count($projects) > 0) { ?>
+					<?php foreach ($projects as $project) { ?>
+						<div class="col-xs-4">
+							<div class="project">
+								<?php echo get_the_post_thumbnail( $project->ID, 'full'); ?>
+								<div class="project-link">
+									<a href="<?php echo $project->guid; ?>"><?php echo $project->post_title; ?></a>
+								</div>
 							</div>
 						</div>
-					</div>
-				<?php } ?>
+					<?php } ?>
+				<?php }else{ ?>
+				<div class="col-xs-12">
+					<h2>Coming Soon</h2>
+				</div>	
+				<?php } ?>	
 			</div>
 		</div>
 	</div>

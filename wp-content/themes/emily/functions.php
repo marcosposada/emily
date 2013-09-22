@@ -43,11 +43,11 @@ function colouralia_scripts()
 	wp_register_script( 'jqueryEasing', get_template_directory_uri() . '/js/jquery.easing.js', array( 'jquery' ) );
 	
 	// Add supersized for big background images
-	//wp_register_script( 'supersized', get_template_directory_uri() . '/js/supersized.core.3.2.1.js', array( 'jquery' ) );
+	wp_register_script( 'supersized', get_template_directory_uri() . '/js/supersized.core.3.2.1.js', array( 'jquery' ) );
 	
 	// Add Less
 	
-	wp_register_script( 'less', get_template_directory_uri() . '/js/less.js', array( 'jquery' ) );
+	//wp_register_script( 'less', get_template_directory_uri() . '/js/less.js', array( 'jquery' ) );
 			
 	// Add our scripts in case we want to do custom stuff
 	wp_register_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ) );
@@ -56,8 +56,8 @@ function colouralia_scripts()
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrap' );
 	wp_enqueue_script( 'jqueryEasing' );
-	wp_enqueue_script( 'flexslider' );
-	wp_enqueue_script( 'less' );
+	wp_enqueue_script( 'supersized' );
+	//wp_enqueue_script( 'less' );
 	wp_enqueue_script( 'scripts' );
 	
 }

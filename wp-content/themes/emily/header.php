@@ -48,10 +48,10 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
 
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/flexslider.css" />
-<link href="<?php bloginfo('template_url');?>/css/styles.less" rel="stylesheet/less" type="text/css" media="all">
+<link href="<?php bloginfo('template_url');?>/css/style.css" rel="stylesheet" type="text/css" media="all">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <?php wp_enqueue_script("jquery"); ?>
@@ -80,7 +80,7 @@
 <div class="top">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-xs-12">
 				<?php wp_nav_menu(); ?>
 			</div>
 		</div>
