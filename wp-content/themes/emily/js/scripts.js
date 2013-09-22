@@ -11,6 +11,11 @@ jQuery(document).ready(function() {
 			});
 		}
 	});
+	var urldomain = document.domain;
+	
+	if (urldomain == "paper-people.com") {
+		urldomain = urldomain + '/emily';
+	}
 	
 	var img1 = 'http://' + document.domain + '/wp-content/themes/emily/images/main-bg.jpg';
 	$.supersized({
