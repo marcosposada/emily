@@ -11,6 +11,7 @@ jQuery(document).ready(function() {
 			});
 		}
 	});
+
 	var urldomain = document.domain;
 	
 	if (urldomain == "www.paper-people.com") {
@@ -43,12 +44,25 @@ jQuery(document).ready(function() {
   		}, function() {
 		  	$('#upload').mouseleave(function() {
 		    	$('#upload').animate({
-					top: '-230px'
+					top: '-315px'
 		  		}, 250 );
 		  		$('#menu-item-13').find('a').css('color', '#00adec');
 		  	});
   		}
 	);
+	
+	$( "#design" ).click(function() {
+		$("a[href='#services']").trigger('click');
+  		$( '#services' ).height(1000);
+	});
+	$( "#documentation" ).click(function() {
+		$("a[href='#services']").trigger('click');
+  		$( '#services' ).height(1000);
+	});
+	$( "#management" ).click(function() {
+		$("a[href='#services']").trigger('click');
+  		$( '#services' ).height(1000);
+	});
 
 }); //end document ready
 
